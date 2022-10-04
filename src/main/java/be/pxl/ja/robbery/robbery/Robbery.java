@@ -1,7 +1,7 @@
-package be.pxl.ja.robbery;
+package be.pxl.ja.robbery.robbery;
 
 public class Robbery {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws KnapsackFullException {
         Knapsack knapsack = new Knapsack(35);
 
         Shop shop = new Shop();
@@ -10,6 +10,7 @@ public class Robbery {
         shop.add(new Product("guitar", 15, 1500));
 
         KnapsackUtil.fill(knapsack, shop);
+
 
         System.out.println("\nList of products:");
         for (Product product : knapsack.getItems()) {

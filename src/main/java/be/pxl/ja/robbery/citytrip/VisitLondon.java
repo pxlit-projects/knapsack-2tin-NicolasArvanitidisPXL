@@ -1,7 +1,7 @@
-package be.pxl.ja.citytrip;
+package be.pxl.ja.robbery.citytrip;
 
 public class VisitLondon {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Knapsack knapsack = new Knapsack(2);
         LondonAttractions attractions = new LondonAttractions();
 
@@ -17,5 +17,5 @@ public class VisitLondon {
         for (Attraction attraction : knapsack.getItems()) {
             System.out.println(attraction);
         }
-    }
+    }*/
 }

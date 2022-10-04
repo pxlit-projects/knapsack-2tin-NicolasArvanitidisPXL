@@ -1,4 +1,4 @@
-package be.pxl.ja.robbery;
+package be.pxl.ja.robbery.robbery;
 
 import java.util.ArrayList;
 import java.util.List;
